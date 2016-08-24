@@ -68,5 +68,11 @@ namespace nianhao
             AddEraForm addEraForm = new AddEraForm();
             addEraForm.ShowDialog(this);
         }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            EditScriptForm editScriptForm = new EditScriptForm();
+            editScriptForm.ShowDialog(this);
+        }
     }
 }
